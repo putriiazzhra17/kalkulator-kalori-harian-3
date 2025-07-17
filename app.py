@@ -1,10 +1,3 @@
-Berikut adalah versi **perbaikan final** dari aplikasi *Calorie Counting*, dengan struktur rapi, bug diperbaiki, dan menggunakan **kalimat penutup seperti sebelumnya** pada halaman "Tentang":
-
----
-
-### ✅ **Kode Python Lengkap (`calorie_counting_app.py`)**
-
-```python
 import streamlit as st
 import random
 
@@ -104,13 +97,12 @@ if menu == "🌎Halaman Utama":
 
     st.title("🍱Calorie Counting - Aplikasi Gizi Sehatmu")
     st.markdown("""
-    Selamat datang di **kalkulator kalori harian**!  
-    Aplikasi ini membantumu untuk:
-    
-    - 🔢 Menghitung kebutuhan kalori harian  
-    - 🍽️ Mendapatkan rekomendasi menu 4 Sehat 5 Sempurna  
-      
-    Gunakan menu di kiri untuk mulai! 🙋‍♀️🙋‍♂️
+Selamat datang di **kalkulator kalori harian**, Tujuan aplikasi sederhana untuk membantu kamu:
+
+- 🔢 Menghitung kebutuhan kalori harian  
+- 🍽️ Mendapatkan rekomendasi menu 4 Sehat 5 Sempurna  
+
+Silakan gunakan menu di sebelah kiri untuk mulai 🙋‍♀️🙋‍♂️
     """)
 
 # ------------------ Halaman Perkenalan ------------------
@@ -175,7 +167,12 @@ elif menu == "💡Tentang":
     st.title("💡Tentang Aplikasi Kalkulator Kalori Harian")
     st.markdown("""
 Aplikasi ini dibuat agar pengakses dapat mengetahui kalori hariannya berdasarkan berat badan, tinggi badan, usia dan gender,
-serta untuk mengetahui Total Daily Energy Expenditure (TDEE) dengan mengoperasikan BMR dengan nilai aktivitas harian (TDEE = BMR × Nilai aktivitas harian).
+serta untuk mengetahui Total Daily Energy Expenditure (TDEE) dengan mengoperasikan BMR dengan nilai aktivitas harian (TDEE = BMR × Nilai aktivitas harian).    
 
 ### Fitur Utama
-```
+- 🔢 **Kalkulator Kalori Harian:** Berdasarkan data pribadi dan aktivitas.  
+- 🍱 **Rekomendasi Menu 4 Sehat 5 Sempurna**  
+- 💡 **Informasi tentang Total Daily Energy Expenditure dan Gizi Seimbang**  
+
+Kami harap aplikasi ini bisa membantu kamu dalam mengetahui tentang kalori harian kamu sehari-hari! 🤗💪
+    """)
