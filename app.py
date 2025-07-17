@@ -1,8 +1,8 @@
-Berikut adalah **versi perbaikan lengkap dan terstruktur** dari aplikasi Streamlit "Calorie Counting" milikmu, dengan semua **bug diperbaiki**, **penataan rapi**, dan **fitur bekerja dengan baik**:
+Berikut adalah versi **perbaikan final** dari aplikasi *Calorie Counting*, dengan struktur rapi, bug diperbaiki, dan menggunakan **kalimat penutup seperti sebelumnya** pada halaman "Tentang":
 
 ---
 
-### ✅ File Python: `calorie_counting_app.py`
+### ✅ **Kode Python Lengkap (`calorie_counting_app.py`)**
 
 ```python
 import streamlit as st
@@ -110,14 +110,15 @@ if menu == "🌎Halaman Utama":
     - 🔢 Menghitung kebutuhan kalori harian  
     - 🍽️ Mendapatkan rekomendasi menu 4 Sehat 5 Sempurna  
       
-    Gunakan menu di kiri untuk mulai!
+    Gunakan menu di kiri untuk mulai! 🙋‍♀️🙋‍♂️
     """)
 
 # ------------------ Halaman Perkenalan ------------------
 elif menu == "😊Perkenalan Kelompok":
     st.header("KELOMPOK 9 (1B-Analisis Kimia)")
     st.markdown("""
-Berikut anggota Kelompok 9:
+Kelompok 9 merupakan tim mahasiswa Program Studi Analisis Kimia yang berkolaborasi dalam pengembangan aplikasi ini,
+beserta dosen mengarahkan dalam pengembangan project ini. Berikut adalah anggota tim dengan NIM:
 
 1. Anindya Nadra Irtiza (NIM: 2460325)  
 2. Haikal Hirra Habibillah (NIM: 2460382)  
@@ -126,7 +127,7 @@ Berikut anggota Kelompok 9:
 5. Yesi Arnesta Laguna Br Ginting (NIM: 2460538)
 """)
 
-# ------------------ Halaman Kalkulator Kalori ------------------
+# ------------------ Halaman Kalkulator ------------------
 elif menu == "🔢Kalkulator Kalori":
     st.title("🔢Kalkulator Kebutuhan Kalori Harian")
     st.subheader("Dengan Rekomendasi Menu 4 Sehat 5 Sempurna 🥔🥦🥩🍉🥛")
@@ -173,13 +174,8 @@ elif menu == "🔢Kalkulator Kalori":
 elif menu == "💡Tentang":
     st.title("💡Tentang Aplikasi Kalkulator Kalori Harian")
     st.markdown("""
-Aplikasi ini dibuat untuk membantu pengguna memahami kebutuhan kalori hariannya.  
-Kalori dihitung menggunakan formula **BMR (Basal Metabolic Rate)** dan dikalikan dengan **faktor aktivitas**.
+Aplikasi ini dibuat agar pengakses dapat mengetahui kalori hariannya berdasarkan berat badan, tinggi badan, usia dan gender,
+serta untuk mengetahui Total Daily Energy Expenditure (TDEE) dengan mengoperasikan BMR dengan nilai aktivitas harian (TDEE = BMR × Nilai aktivitas harian).
 
-### 📌 Fitur Utama
-- 🔢 Kalkulator Kalori Harian berdasarkan berat, tinggi, usia, dan aktivitas.
-- 🍱 Rekomendasi Menu 4 Sehat 5 Sempurna.
-- 📚 Edukasi seputar TDEE dan gaya hidup seimbang.
-
-Semoga bermanfaat
+### Fitur Utama
 ```
